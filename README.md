@@ -1,10 +1,11 @@
 # co2-indicator-light
-CO2 Sensor Hardware and firmware
+This project presents the co2 indicator light, which is used at several places since summer 2018. The indicator-light at the sensor is the direct feedback for the people in the same room. The firmware takes the measurement of the co2 sensors and shows the result at the neopixel led. 
+It is possible to transmit the values of co2, temperature and humidity to a MQTT service of your choice. 
 
 ## Parts
 <ul>
 <li>Wemos D1 mini ESP8266 </li>
-<li>MH-Z14A CO2 Sensor</li>
+<li>MH-Z14A co2 sensor</li>
 <li>DHT22 temperature & humidity sensor</li>
 <li>neopixel 8 led smd</li>
 <li>5V USB powersupply + micro-USB cable</li>
