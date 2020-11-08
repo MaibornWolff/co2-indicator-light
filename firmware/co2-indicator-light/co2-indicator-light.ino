@@ -67,7 +67,7 @@ int getCO2(){
 }
 
 unsigned long previous_millis = 0;
-unsigned long interval = 60000;
+unsigned long interval = 20000;
 
 void loop() {
 	  if(millis() - previous_millis > interval) {
